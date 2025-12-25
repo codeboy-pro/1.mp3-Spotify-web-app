@@ -16,7 +16,7 @@ let songs = [
     filepath: "songs/1.mp3",
     coverpath: "covers/1.jpg",
   },
-  { songName: "Hey boy", filepath: "songs/2.mp3", coverpath: "covers/2.jpg" },
+  { songName: "Happy Music", filepath: "songs/2.mp3", coverpath: "covers/2.jpg" },
   {
     songName: "Unstoppable",
     filepath: "songs/3.mp3",
