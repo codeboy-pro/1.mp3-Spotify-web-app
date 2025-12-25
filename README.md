@@ -123,7 +123,7 @@ Through this project, I gained hands-on experience with:
 
 **Pradip Maity**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@yourusername](https://github.com/codeboy-pro)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 ## 📄 License
