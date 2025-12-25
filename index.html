@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify- Your favourite music is here</title>
+    <link rel="icon" type="image/x-icon" href="favico.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="/logo.png" alt="Spotify" />Spotify</li>
+
+        <li>Home</li>
+        <li>
+          <a
+            href="https://newsroom.spotify.com/company-info/"
+            style="text-decoration: none; color: inherit"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>Best of NCS- No copyright sounds</h1>
+
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="Salam-e-Isque" />
+            <span class="songName">Salam-e-Isque</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="0"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+
+          <div class="songitem">
+            <img src="covers/2.jpg" alt="Hey boy" />
+            <span class="songName">Hey boy</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="1"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/3.jpg" alt="I am in the way" />
+            <span class="songName">I am in the way</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="2"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/4.jpg" alt="Das ka music" />
+            <span class="songName">Das ka music</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="3"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/5.jpg" alt="hey god" />
+            <span class="songName">hey god</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="4"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/6.jpg" alt="sidha sadha tha" />
+            <span class="songName">sidha sadha tha</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="5"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/7.jpg" alt="The Moon is bright" />
+            <span class="songName">The Moon is bright</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="6"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/8.jpg" alt="A dark forest" />
+            <span class="songName">A dark forest</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="7"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/9.jpg" alt="DD production music" />
+            <span class="songName">DD production music</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="8"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/10.jpg" alt="Lets do some work" />
+            <span class="songName">Lets do some work</span>
+            <span class="songlistplay"
+              ><span class="time"
+                >05:34<i
+                  id="9"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+
+        <div class="songBanner"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!-- fontawesome icons  -->
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songinfo">
+        <img src="playing.gif" width="42px" alt="Now Playing" id="gif" />
+        <span id="masterSongName">Salam-e-Isque</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/68512ac819.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
