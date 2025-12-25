@@ -12,14 +12,14 @@ let songitems= Array.from(document.getElementsByClassName('songitem'));
 let songs=   [
     {songName: "Salam-e-Isque", filepath: "songs/1.mp3", coverpath: "covers/1.jpg"},
     {songName: "Hey boy", filepath: "songs/2.mp3", coverpath: "covers/2.jpg"},
-    {songName: "I am in the way", filepath: "songs/3.mp3", coverpath: "covers/3.jpg"},
-    {songName: "Das ka music", filepath: "songs/4.mp3", coverpath: "covers/4.jpg"},
-    {songName: "hey god", filepath: "songs/5.mp3", coverpath: "covers/5.jpg"},
-    {songName: "sidha sadha tha", filepath: "songs/6.mp3", coverpath: "covers/6.jpg"},
-    {songName: "The Moon is bright", filepath: "songs/7.mp3", coverpath: "covers/7.jpg"},
+    {songName: "Unstoppable", filepath: "songs/3.mp3", coverpath: "covers/3.jpg"},
+    {songName: "Perfect", filepath: "songs/4.mp3", coverpath: "covers/4.jpg"},
+    {songName: "Meri Bechaniya", filepath: "songs/5.mp3", coverpath: "covers/5.jpg"},
+    {songName: "Let Me Down Slowly", filepath: "songs/6.mp3", coverpath: "covers/6.jpg"},
+    {songName: "Someone You Loved – Lewis Capaldi", filepath: "songs/7.mp3", coverpath: "covers/7.jpg"},
     {songName: "A dark forest", filepath: "songs/8.mp3", coverpath: "covers/8.jpg"},
-    {songName: "DD production music", filepath: "songs/9.mp3", coverpath: "covers/9.jpg"},
-    {songName: "Lets do some work", filepath: "songs/10.mp3", coverpath: "covers/10.jpg"}
+    {songName: "Believer – Imagine Dragons", filepath: "songs/9.mp3", coverpath: "covers/9.jpg"},
+    {songName: "See You Again", filepath: "songs/10.mp3", coverpath: "covers/10.jpg"}
 
 ];
 songitems.forEach((element,i)=>{
